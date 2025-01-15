@@ -1,14 +1,14 @@
 <script setup>
 
 
-import Navbar from './components/Navbar.vue';
+import Form from './components/Form.vue';
+
 
 
 </script>
 
 <template>
 
-
-<Navbar />
+<Form /> 
 
 </template>
