@@ -43,8 +43,27 @@ const toggleShowSidebar = () => {
 
     <!-- sidebar -->
 
-    <div class="row-start-1 row-span-12 col-start-1 col-span-2 bg-red-500 p-2">
-      <aside>sidebar</aside>
+    <div class="row-start-1 row-span-12 col-start-1 col-span-2 flex justify-center">
+      <aside class="border w-[80%] h-full ">
+        <div class="text-3xl bg-blue-300 mb-10 mt-5">
+          Robi Store
+        </div>
+
+        <ul class="flex flex-col gap-5">
+          <li class="flex justify-between items-center cursor-pointer">
+            <span class="text-xl font-medium text-gray-700">Dashboard</span>
+            <span class="pi pi-home text-xl text-purple-500"></span>
+          </li>
+          <li class="flex justify-between items-center cursor-pointer">
+            <span class="text-xl font-medium text-gray-700">Product</span>
+            <span class="pi pi-gift text-xl text-purple-500"></span>
+          </li>
+          <li class="flex justify-between items-center cursor-pointer">
+            <span class="text-xl font-medium text-gray-700">Pelanggan</span>
+            <span class="pi pi-user text-xl text-purple-500"></span>
+          </li>
+        </ul>
+      </aside>
     </div>
 
     <!-- main content -->
