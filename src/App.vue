@@ -1,7 +1,6 @@
 <script setup>
 
-
-import Form from './components/Form.vue';
+import AdminHomeView from './views/admin/AdminHomeView.vue';
 
 
 
@@ -9,6 +8,6 @@ import Form from './components/Form.vue';
 
 <template>
 
-<Form /> 
+<AdminHomeView />
 
 </template>
